@@ -1,0 +1,103 @@
+@charset="UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #333;
+	background: #f7f7f7;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 135%;
+}
+
+a {
+	color: #f58b8b;
+	text-decoration: none;
+	transition: all.06s ease;
+	-moz-transition: all.06s ease;
+	-webkit-transition: all.06s ease;
+	-ms-transition: all.06s ease;
+}
+
+a:hover {
+	color: #8b9ff5;
+	text-decoration: non e;
+	transition: all.06s ease;
+	-moz-transition: all.06s ease;
+	-webkit-transition: all.06s ease;
+	-ms-transition: all.06s ease;
+}
+a:active {color: #8ce4a6}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+.left {float: left;}
+
+.right{float: right;}
+
+::selction {background: #f58b8b; color: #fff}
+::-moz-selection {background: #f58b8b; color: #fff}
+
+header, footer {
+	width: 98%;
+	background-color: #fff;
+	
+}
+header {
+	border-bottom: 2px solid silver;
+	padding: 1%;
+}
+
+#logo{
+	font-size: 2em;
+	font-family: Comic Sans MS, sans-serif;
+	color: silver;
+}
+.contact {
+	font-size: 1.5em;
+	font-family: Comic Sans MS, sans-serif;
+    margin-left: 20px;
+}
+input[type=text].field{
+	border-radius: 5px;
+	border: 2px solid silver;
+	padding: 5px;
+	margin-left: 20px;
+}
+
+input[type=text].field:focus{border: 2px solid #f58b8b}
+
+
+
+
+
+footer {
+	padding: 1%;
+	border-top: 2px solid silver;
+	margin-top: 10px;
+	padding-bottom: 3%;
+}
+
+#google {background-image: url("../img/Google.png");}
+#twitter{background-image: url("../img/Twitter.png"); }
+#youtube{background-image: url("../img/Youtube.png"); }
+#wordpress{background-image: url("../img/Wordpress.png"); }
+footer button {
+	background-repeat: none;
+	background-color: white;
+    float: right;
+	padding: 1%;
+	margin-left: 15px;
+	border-radius: 30px;
+	border: 0;
+	background-size: 100%;
+	background-position: center;
+}
